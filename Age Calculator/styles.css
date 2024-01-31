@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    /* https://cssgradient.io/ */
+    background-image: radial-gradient(
+        circle 369px at -2.9% 12.9%,
+        rgba(247, 234, 163, 1) 0%,
+        rgba(236, 203, 247, 1) 46.4%,
+        rgba(163, 263, 247, 1) 100.7%
+    );
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 20px;
+    width: 400px;
+    box-shadow: 5px 15px 30px rgba(128, 128, 128, 0.384);
+}
+
+label {
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 9px;
+}
+input {
+    border: none;
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    /* border-radius: 10px; */
+}
+.btns {
+    width: 50%;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 30px;
+}
+button {
+    width: 70%;
+    padding: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+span {
+    font-weight: bold;
+}
+ul {
+    font-size: large;
+    list-style-type: circle;
+}
+li::marker {
+    color: rgb(127, 107, 179);
+}
